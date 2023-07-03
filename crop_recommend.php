@@ -31,7 +31,7 @@
         </nav>
 
 
-        <!-- Contact section-->
+        <!-- section-->
         <section class="bg-light py-5">
             <div class="container px-5 my-5 px-5">
                 <div class="text-center mb-5">
@@ -43,75 +43,90 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
 
-                        <!-- to get an API token!-->
-                        <form id="crop_recommend" data-sb-form-api-token="API_TOKEN">
+                        <form role="form" action="#result" method="post">
                             <!-- Nitrogen input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="n" type="number" placeholder="0" data-sb-validations="required" />
+                                <input class="form-control" name="n" type="number" min="0" placeholder="eg: 80" data-sb-validations="required" />
                                 <label for="n">N: ratio of nitrogen content in soil</label>
-                                <div class="invalid-feedback" data-sb-feedback="n:required">level of Nitrogen is required.</div>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="n:required">level of Nitrogen is required.</div> -->
                             </div>
 
                             <!-- Phosphorus input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="p" type="number" placeholder="0" data-sb-validations="required" />
+                                <input class="form-control" name="p" type="number" min="0" placeholder="eg: 50" data-sb-validations="required" />
                                 <label for="p">P: ratio of Phosphorous content in soil</label>
-                                <div class="invalid-feedback" data-sb-feedback="p:required">level of Phosphorus is required.</div>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="p:required">level of Phosphorus is required.</div> -->
                             </div>
 
                             <!-- Potassium input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="k" type="number" placeholder="0" data-sb-validations="required" />
+                                <input class="form-control" name="k" type="number" min="0" placeholder="eg:50" data-sb-validations="required" />
                                 <label for="k">K: ratio of Potassium content in soil</label>
-                                <div class="invalid-feedback" data-sb-feedback="k:required">level of Potassium is required.</div>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="k:required">level of Potassium is required.</div> -->
                             </div>
 
                             <!-- Temperature input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="temp" type="number" placeholder="0" data-sb-validations="required" />
+                                <input class="form-control" name="temp" type="number" step="0.01" placeholder="eg: 25" data-sb-validations="required" />
                                 <label for="temp">Temperature (in °C)</label>
-                                <div class="invalid-feedback" data-sb-feedback="temp:required">temperature is required.</div>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="temp:required">temperature is required.</div> -->
                             </div>
 
                             <!-- Humidity input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="humidity" type="number" placeholder="0" data-sb-validations="required" />
+                                <input class="form-control" name="humidity" type="number" step="0.01" min="eg: 80.01"  placeholder="0" data-sb-validations="required" />
                                 <label for="humidity">Relative Humidity in %</label>
-                                <div class="invalid-feedback" data-sb-feedback="humidity:required">relative humidity is required.</div>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="humidity:required">relative humidity is required.</div> -->
                             </div>
 
                             <!-- pH input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="ph" type="number" placeholder="0" data-sb-validations="required" />
+                                <input class="form-control" name="ph" type="number" step="0.01" placeholder="eg: 7.1" data-sb-validations="required" />
                                 <label for="ph">pH value of the soil</label>
-                                <div class="invalid-feedback" data-sb-feedback="ph:required">ph of soil is required.</div>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="ph:required">ph of soil is required.</div> -->
                             </div>
 
                             <!-- Rainfall input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="rain" type="number" placeholder="0" data-sb-validations="required" />
+                                <input class="form-control" name="rain" type="number" step="0.01" min="eg: 67.8"  placeholder="0" data-sb-validations="required" />
                                 <label for="rain">Rainfall (in mm)</label>
-                                <div class="invalid-feedback" data-sb-feedback="rain:required">Rainfall is required.</div>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="rain:required">Rainfall is required.</div> -->
                             </div>
                             <!-- Submit Button-->
-                            <!-- Submit success message-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" formtarget="index.php">Confirm</button></div>
+                            <div class="d-grid"><button class="btn btn-primary btn-lg" name="Crop_Recommend" type="submit">Confirm</button></div>
                         </form>
                     </div>
+
+                    <div id="result">
+                        <div class="text-center mb-3">
+                            <?php 
+                                if(isset($_POST['Crop_Recommend'])){
+                                    $n=trim($_POST['n']);
+                                    $p=trim($_POST['p']);
+                                    $k=trim($_POST['k']);
+                                    $t=trim($_POST['temp']);
+                                    $h=trim($_POST['humidity']);
+                                    $ph=trim($_POST['ph']);
+                                    $r=trim($_POST['rain']);
+                                    echo "Recommended Crop is : ";
+
+                                    $Jn=json_encode($n);
+                                    $Jp=json_encode($p);
+                                    $Jk=json_encode($k);
+                                    $Jtemp=json_encode($t);
+                                    $Jhumidity=json_encode($h);
+                                    $Jph=json_encode($ph);
+                                    $Jrainfall=json_encode($r);
+                                    
+                                    $command = escapeshellcmd("python models\Crop_Recommendation\crop_recommender.py $Jn $Jp $Jk $Jtemp $Jhumidity $Jph $Jrainfall ");
+                                    $output = passthru($command);
+                                    echo $output;					
+                                }
+                            ?>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </section>
