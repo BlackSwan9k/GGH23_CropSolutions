@@ -150,7 +150,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        <footer class="py-3 bg-dark">
             <div class="container px-5"><p class="m-0 text-center text-white">made for GGH 2023</p></div>
             <!-- <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div> -->
         </footer>
