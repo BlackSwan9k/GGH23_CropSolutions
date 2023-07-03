@@ -17,7 +17,7 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
-                <a class="navbar-brand" href="#!">Crop Solutions</a>
+                <a class="navbar-brand">Crop Solutions</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -55,7 +55,7 @@
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-tree"></i></div>
                         <h2 class="h4 fw-bolder">Crop Recommender</h2>
                         <p>It recommends crops based on various factors related to soil and temperature.</p>
-                        <a class="text-decoration-none" href="#!">
+                        <a class="text-decoration-none" href="crop_recommend.php">
                             Go to page
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -63,7 +63,7 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-cloud-rain-heavy"></i></div>
                         <h2 class="h4 fw-bolder">Rainfall/Weather Prediction</h2>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                        <p>Predicts rainfall/weather.</p>
                         <a class="text-decoration-none" href="#!">
                             Go to page
                             <i class="bi bi-arrow-right"></i>
@@ -72,8 +72,8 @@
                     <div class="col-lg-4">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-map"></i></div>
                         <h2 class="h4 fw-bolder">Crop Suggestion by locality</h2>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                        <a class="text-decoration-none" href="#!">
+                        <p>Best crops based on location.</p>
+                        <a class="text-decoration-none" href="crop_suggestion.php">
                             Go to page
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -151,7 +151,7 @@
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Website made for GGH 2023</p></div>
+            <div class="container px-5"><p class="m-0 text-center text-white">made for GGH 2023</p></div>
             <!-- <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div> -->
         </footer>
         <!-- Bootstrap core JS-->
