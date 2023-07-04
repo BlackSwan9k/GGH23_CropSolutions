@@ -6,8 +6,6 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Crop Solutions</title>
-        <!-- Favicon-->
-        <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -22,9 +20,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#!">About</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="index.php#features">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Crop Database</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#!">Crop Database</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                     </ul>
                 </div>
@@ -54,7 +51,7 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-tree"></i></div>
                         <h2 class="h4 fw-bolder">Crop Recommender</h2>
-                        <p>It recommends crops based on various factors related to soil and temperature.</p>
+                        <p>It provides crop recommendations considering diverse factors such as soil composition and temperature conditions.</p>
                         <a class="text-decoration-none" href="crop_recommend.php">
                             Go to page
                             <i class="bi bi-arrow-right"></i>
@@ -62,8 +59,8 @@
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-cloud-rain-heavy"></i></div>
-                        <h2 class="h4 fw-bolder">Rainfall/Weather Prediction</h2>
-                        <p>Predicts rainfall/weather.</p>
+                        <h2 class="h4 fw-bolder">Rainfall Prediction</h2>
+                        <p>Using regional and seasonal data, it offers rainfall predictions for specific areas and timeframes.</p>
                         <a class="text-decoration-none" href="rainfall_pred.php">
                             Go to page
                             <i class="bi bi-arrow-right"></i>
@@ -72,7 +69,7 @@
                     <div class="col-lg-4">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-map"></i></div>
                         <h2 class="h4 fw-bolder">Crop Suggestion by locality</h2>
-                        <p>Best crops based on location.</p>
+                        <p>Based on your geographical location, it suggests suitable crops for cultivation.</p>
                         <a class="text-decoration-none" href="crop_suggestion.php">
                             Go to page
                             <i class="bi bi-arrow-right"></i>

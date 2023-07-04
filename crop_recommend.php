@@ -6,8 +6,6 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Crop Recommender</title>
-        <!-- Favicon-->
-        <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -23,7 +21,7 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link active" href="index.php#features">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Crop Database</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#!">Crop Database</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                     </ul>
                 </div>
@@ -37,7 +35,7 @@
                 <div class="text-center mb-5">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-tree"></i></div>
                     <h2 class="fw-bolder">Crop Recommender</h2>
-                    <p class="lead mb-0">It recommends crops based on various factors related to soil and temperature.</p>
+                    <p class="lead mb-0">It provides crop recommendations considering diverse factors such as soil composition and temperature conditions.</p>
                     <p class="lead mb-0">To get started, please enter the following details below: </p>
                 </div>
                 <div class="row gx-5 justify-content-center">

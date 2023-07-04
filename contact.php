@@ -6,8 +6,6 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Crop Solutions</title>
-        <!-- Favicon-->
-        <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -23,7 +21,7 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="index.php#features">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Crop Database</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#!">Crop Database</a></li> -->
                         <li class="nav-item"><a class="nav-link active" href="contact.php">Contact</a></li>
                     </ul>
                 </div>
@@ -100,16 +98,11 @@
         <!-- Footer-->
         <footer class="py-3 bg-dark">
             <div class="container px-5"><p class="m-0 text-center text-white">made for GGH 2023</p></div>
-            <!-- <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div> -->
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

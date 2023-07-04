@@ -26,8 +26,6 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Crop Suggestion</title>
-        <!-- Favicon-->
-        <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -43,7 +41,7 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link active" href="index.php#features">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Crop Database</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#!">Crop Database</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                     </ul>
                 </div>
@@ -58,7 +56,7 @@
                 <div class="text-center mb-5">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-map"></i></div>
                     <h2 class="fw-bolder">Crop Suggestion</h2>
-                    <p class="lead mb-0">Best crops based on location.</p>
+                    <p class="lead mb-0">Based on your geographical location, it suggests suitable crops for cultivation.</p>
                     <p class="lead mb-0">To get started, please select the following details below: </p>
                 </div>
                 <div class="row gx-5 justify-content-center">
