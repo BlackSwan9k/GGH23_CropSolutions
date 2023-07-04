@@ -39,3 +39,10 @@ By integrating these data-driven insights, farmers can make informed decisions a
 
 2. Go to connection.php and change the username and password accordingly.
 
+3. Install the required packages by running the command
+   ``` pip install -r installation.txt ```
+
+4. Import database from sql_dump
+   
+5. Run it using Apache webserver through XAMPP or similar platforms.
+
