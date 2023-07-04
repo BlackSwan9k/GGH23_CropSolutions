@@ -11,15 +11,15 @@ a considerable problem, leading to lower yields and crop failures. Fortunately, 
 machine learning, we can effectively address this issue.
 
 
-This project utilizes an array of environmental factors, including soil composition (Nitrogen ,Phosphorus , Potassium), its pH, 
-average rainfall, humidity and temperature, to generate recommendations for crops that thrive under specific conditions. 
+This project utilizes an array of environmental factors, including soil composition (Nitrogen, Phosphorus, Potassium), its pH, 
+average rainfall, humidity and temperature to generate recommendations for crops that thrive under specific conditions. 
 Moreover, it considers the district and season to suggest suitable crops that align with the characteristics of the land. 
 Additionally, the project provides insights into anticipated rainfall in particular locations based on the time of the month, 
 offering valuable information for effective crop planning and irrigation management. 
 By integrating these data-driven insights, farmers can make informed decisions about crop selection and optimize their agricultural practices accordingly.
 
 ### Datasets Used:
-- Crop Recommmendation: https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
+- Crop Recommendation: https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 - Rainfall: https://www.kaggle.com/datasets/rajanand/rainfall-in-india
 - Crop Suggestion based on location: https://www.kaggle.com/datasets/abhinand05/crop-production-in-india
 
@@ -33,7 +33,7 @@ By integrating these data-driven insights, farmers can make informed decisions a
   - NumPy
   - Scikit-learn
 
-### Installation
+### How to Use
 1. Clone the repository
 ``` git clone https://github.com/BlackSwan9k/GGH23_CropSolutions.git ```
 
