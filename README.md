@@ -4,13 +4,6 @@
 Pragya Harsh
 
 ### Description
-It is evident that more than 50% of our country's workforce is engaged in Agriculture and allied sectors, playing a
-crucial role in boosting other industries. However, while some individuals have access to modern technologies and
-practices, a significant portion of the population remains deprived of these advancements. This discrepancy poses
-a considerable problem, leading to lower yields and crop failures. Fortunately, by harnessing the power of AI and
-machine learning, we can effectively address this issue.
-
-
 This project utilizes an array of environmental factors, including soil composition (Nitrogen, Phosphorus, Potassium), its pH, 
 average rainfall, humidity and temperature to generate recommendations for crops that thrive under specific conditions. 
 Moreover, it considers the district and season to suggest suitable crops that align with the characteristics of the land. 
