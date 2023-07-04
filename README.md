@@ -33,7 +33,7 @@ By integrating these data-driven insights, farmers can make informed decisions a
   - NumPy
   - Scikit-learn
 
-### How to Use
+### How to Run
 1. Clone the repository
 ``` git clone https://github.com/BlackSwan9k/GGH23_CropSolutions.git ```
 
