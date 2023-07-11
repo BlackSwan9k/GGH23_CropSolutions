@@ -4,13 +4,6 @@
 Pragya Harsh
 
 ### Description
-It is evident that more than 50% of our country's workforce is engaged in Agriculture and allied sectors, playing a
-crucial role in boosting other industries. However, while some individuals have access to modern technologies and
-practices, a significant portion of the population remains deprived of these advancements. This discrepancy poses
-a considerable problem, leading to lower yields and crop failures. Fortunately, by harnessing the power of AI and
-machine learning, we can effectively address this issue.
-
-
 This project utilizes an array of environmental factors, including soil composition (Nitrogen, Phosphorus, Potassium), its pH, 
 average rainfall, humidity and temperature to generate recommendations for crops that thrive under specific conditions. 
 Moreover, it also suggests fertilizer based on crop and soil type.
@@ -33,7 +26,7 @@ By integrating these data-driven insights, farmers can make informed decisions a
   - NumPy
   - Scikit-learn
 
-### How to Use
+### How to Run
 1. Clone the repository
 ``` git clone https://github.com/BlackSwan9k/GGH23_CropSolutions.git ```
 
