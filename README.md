@@ -13,7 +13,7 @@ machine learning, we can effectively address this issue.
 
 This project utilizes an array of environmental factors, including soil composition (Nitrogen, Phosphorus, Potassium), its pH, 
 average rainfall, humidity and temperature to generate recommendations for crops that thrive under specific conditions. 
-Moreover, it considers the district and season to suggest suitable crops that align with the characteristics of the land. 
+Moreover, it also suggests fertilizer based on crop and soil type.
 Additionally, the project provides insights into anticipated rainfall in particular locations based on the time of the month, 
 offering valuable information for effective crop planning and irrigation management. 
 By integrating these data-driven insights, farmers can make informed decisions about crop selection and optimize their agricultural practices accordingly.
@@ -21,7 +21,7 @@ By integrating these data-driven insights, farmers can make informed decisions a
 ### Datasets Used:
 - Crop Recommendation: https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 - Rainfall: https://www.kaggle.com/datasets/rajanand/rainfall-in-india
-- Crop Suggestion based on location: https://www.kaggle.com/datasets/abhinand05/crop-production-in-india
+- Fertilizer: https://www.kaggle.com/datasets/gdabhishek/fertilizer-prediction
 
 ### Tech Stack
 - HTML/CSS

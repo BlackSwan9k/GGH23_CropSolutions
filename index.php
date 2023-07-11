@@ -66,6 +66,44 @@
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-archive-fill"></i></div>
+                        <h2 class="h4 fw-bolder">Fertilizer Recommender</h2>
+                        <p>It provides the best fertilizer for different crops and soil types.</p>
+                        <a class="text-decoration-none" href="fertilizer_recommend.php">
+                            Go to page
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    
+
+                    
+                </div>
+
+                
+
+            </div>
+<!-- 
+            <div class="container px-5 my-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-map"></i></div>
+                        <h2 class="h4 fw-bolder">Crop Suggestion by locality</h2>
+                        <p>Based on your geographical location, it suggests suitable crops for cultivation.</p>
+                        <a class="text-decoration-none" href="crop_suggestion.php">
+                            Go to page
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-cloud-rain-heavy"></i></div>
+                        <h2 class="h4 fw-bolder">Crop Prediction</h2>
+                        <p>Using regional and seasonal data, it offers rainfall predictions for specific areas and timeframes.</p>
+                        <a class="text-decoration-none" href="rainfall_pred.php">
+                            Go to page
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
                     <div class="col-lg-4">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-map"></i></div>
                         <h2 class="h4 fw-bolder">Crop Suggestion by locality</h2>
@@ -75,9 +113,11 @@
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
+
+                    
                 </div>
-            </div>
-        </section>
+            </div>-->
+        </section> 
 
         <!-- Footer-->
         <footer class="py-3 bg-dark">
